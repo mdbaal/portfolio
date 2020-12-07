@@ -39,11 +39,11 @@
 		</div>
       </div>
     </div>
-		
+
 		</div>
 </section>
 
-<?php include 'vaardigheden.php'; ?>
+<?php include '../vaardigheden.php'; ?>
 
     <section>
       <div class="container container-spaced">
