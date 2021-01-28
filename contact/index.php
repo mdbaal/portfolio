@@ -16,17 +16,6 @@
         <div class="col-12">
           <h1 titel="Over mij" id="contact-id">Contact</h1>
         </div>
-		<!--<div class= "col-6">
-			<div class= "contact">
-				<form class="row no-gutters" enctype="multipart/form-data" action="contact.php">
-					<p class="col-12">(*) = verplicht</p>
-					<div class="col-4"><label for="Naam" >Naam (*)</label></div> <div class="col-8"><input type="text" name="Naam"  required/></div>
-					<div class="col-4"><label for="Email">E-mail (*)</label></div> <div class="col-8"><input type="email" name="Email"  required/></div>
-					<div class="col-4"><label for="Bericht">Bericht (*)</label></div> <div class="col-8"><textarea name="Bericht" required></textarea></div>
-					<div class="col-8"><label></label></div> <div class="col-4"><input type="submit" name="Verzenden" value="Verzenden"/></div>
-				</form>
-			</div>
-		</div> -->
 		<div class= "col-6">
 			<div class= "contact">
 				<div class="row no-gutters">
@@ -42,18 +31,6 @@
 
 		</div>
 </section>
-
-<?php include '../vaardigheden.php'; ?>
-
-    <section>
-      <div class="container container-spaced">
-        <div class="row">
-          <div class="col-12">
-
-          </div>
-        </div>
-      </div>
-    </section>
 
     <?php include '../footer.php';?>
   </body>

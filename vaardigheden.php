@@ -4,15 +4,15 @@
       <div class="col-12 col-sm-6">
         <div class="card vaardigheid">
           <div class="card-header border-bottom-blue-dark">
-            <h5 class="card-title"><i class="material-icons">code</i><b>Game development</b></h5>
+            <h5 class="card-title"><i class="material-icons">code</i><b>Programmeren</b></h5>
           </div>
           <div class="card-body">
             <ul class="ul-align">
               <li>C#</li>
+			  <li>Unity 2D/3D</li>
               <li>C++</li>
-              <li>Unity 2D/3D</li>
-              <li>Game Maker Studio</li>
-              <li>Java</li>
+              <li>PHP</li>
+              <li>MySQL</li>
             </ul>
           </div>
         </div>

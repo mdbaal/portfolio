@@ -6,20 +6,20 @@
         <div id="swiperContainer">
           <div class="swiper-container">
             <div class="swiper-wrapper">
-
-              <div class="swiper-slide project-small">
-                <a href="/portfolio/mijn-werk/">
-                  <div class="img-zoom"><img src="images/thumbnails/framework3.png" alt="Framework - C++"></div>
-                  <div class="project-small-title">Framework - C++</div>
-                </a>
-              </div>
-
-              <div class="swiper-slide project-small">
+			
+			<div class="swiper-slide project-small">
                 <a href="/portfolio/mijn-werk/">
                   <div class="img-zoom">
                     <img src="images/thumbnails/tkht.png" alt="The King His Things - C# Unity">
                   </div>
                   <div class="project-small-title">The King His Things - C#</div>
+                </a>
+              </div>
+
+              <div class="swiper-slide project-small">
+                <a href="/portfolio/mijn-werk/">
+                  <div class="img-zoom"><img src="images/thumbnails/framework3.png" alt="Framework - C++"></div>
+                  <div class="project-small-title">Framework - C++</div>
                 </a>
               </div>
 

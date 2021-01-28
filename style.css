@@ -175,7 +175,6 @@ text-decoration: none;
     box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     border: 1px solid #e1e1e1;
-
 }
 
 .vaardigheid .card-header{
@@ -188,13 +187,26 @@ text-decoration: none;
   color:white;
 }
 .vaardigheid .card-body{
-  padding:10px;
+  padding:20px;
   min-height: 182px;
   background: #f1f1f1;
   padding-bottom:9px;
 }
 .vaardigheid ul{
-  padding-left:6%;
+  padding-left:0%;
+}
+
+.vaardigheid ul li{
+	list-style: none;
+	padding-top:15px;
+}
+
+.vaardigheid ul li.list-title{
+	
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
 
 
@@ -276,7 +288,7 @@ text-decoration: none;
 	background: #f1f1f1;
 	border-radius:3px;
 	padding:30px;
-	/*border: 1px solid rgba(0,0,0,0.1);*/
+	margin-bottom: 40px;
 }
 
 .contact a{

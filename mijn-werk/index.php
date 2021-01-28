@@ -19,6 +19,37 @@
 		<div class= "col-12">
 			<div class="projecten">
 			<div class="row">
+			
+			<div class="col-12">
+					<div class="project">
+						<div class="row">
+							<div class="col-3">
+								<img class="project-img img-fluid" src="../images/thumbnails/simonsays.png" alt="Project img" data-bigimage="../images/simonsays.png">
+							</div>
+							<div class="col-9">
+								<h3 class="project-title">spel - Javascript P5js 2021</h3>
+								<p class="project-desc">Een simpele versie van simons says. Momenteel nog geen audio.</p>
+								<a class="project-link" href="/mijn-werk/spel.php">Speel hier</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php /*
+				<!--<div class="col-12">
+					<div class="project">
+						<div class="row">
+							<div class="col-3">
+								<img class="project-img img-fluid" src="../images/thumbnails/s.png" alt="Project img" data-bigimage="../images/s.png">
+							</div>
+							<div class="col-9">
+								<h3 class="project-title">Planet Miners 2021</h3>
+								<p class="project-desc">Planet Miners is geïspireerd door de game Lego Rock Raiders met een eigen feel en gameplay.</p>
+								<a class="project-link" href="https://github.com/mdbaal/PlanetMiners">Github link</a>
+							</div>
+						</div>
+					</div>
+				</div>-->*/ ?>
+			
 				<div class="col-12">
 					<div class="project">
 						<div class="row">

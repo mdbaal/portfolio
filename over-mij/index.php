@@ -16,36 +16,38 @@
         <div class="col-12">
           <h1 titel="Over mij" id="over-mij-id">Over mij</h1>
         </div>
-		<div class= "col-12">
-			<div class="over-mij">
-				<p>
-					Mijn naam is Mirco Baalmans en ik zit in mijn laatste jaar van de opleiding game development op het Alfa-college.<br><br>
-					De reden waarom ik ben begonnen met game development is dat ik altijd al bezig was met computers en games van jongs af aan. In het laatste jaar van de middelbare school moest ik bedenken wat ik wou gaan doen als vervolg opleiding. Na veel denken en uiteindelijk niet echt iets te weten, ben ik, omdat ik al veel met games bezig was, game development gaan doen.<br><br>
-					Thuis was ik wel eens bezig met oefenen en dingen uit proberen in gamemaker, maar dat waren vaak te ambitieuze projecten. Tijdens de opleiding merkte ik al snel dat game development en programmeren iets voor mij was en heb dan ook met veel plezier aan projecten gewerkt. Ik zit nu dus in mijn laatste jaar van de opleiding en ben nu bezig met mijn eind project “The king his things”. Link naar de GitHub staat bij mijn projecten.
-					Ondanks dat ik game development doe heb ik naast games ook interesse in het maken van applicaties en websites.<br><br>
-					Kijk gerust rond op mijn website en voor vragen/opmerkingen ben ik te bereiken via mijn contact gegeven.
+        <div class= "col-12">
+          <div class="over-mij">
+            <p>
+              Mijn naam is Mirco Baalmans en ik ben sinds juni klaar met de opleiding applicatie/game ontwikkelaar.
+              Momenteel ben ik opzoek naar een baan waar in ik mij verder kan ontwikkelen in games of C# .Net. Ik heb veel interesse in back-end en applicatie ontwikkeling en wil mij daar ook in verder ontwik<br><br>
 
-				</p>
-			</div>
-		</div>
-      </div>
-    </div>
+              De reden waarom ik ben begonnen met programmeren is omdat ik altijd al veel bezig was met computers en games.
+              Toen ik in het laatste jaar van de middelbare school een opleiding moest kiezen heb ik uiteindelijk gekozen voor de opleiding game/app developement.
+              Ik had tijdens de middelbare school al wel eens wat dingen geprobeerd met Game Maker en de basis van een HTML pagina.
 
-		</div>
-</section>
-
-<?php include '../vaardigheden.php'; ?>
-
-    <section>
-      <div class="container container-spaced">
-        <div class="row">
-          <div class="col-12">
-
+              Ondertussen heb ik met veel plezier de opleiding afgerond en ben nu toe aan / op zoek naar een nieuwe uitdaging om mij verder te ontwikkelen.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <?php include '../footer.php';?>
-  </body>
-  </html>
+  </div>
+</section>
+
+<?php include '../vaardighedenUitgebreid.php'; ?>
+
+<section>
+  <div class="container container-spaced">
+    <div class="row">
+      <div class="col-12">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php include '../footer.php';?>
+</body>
+</html>
