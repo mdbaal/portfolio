@@ -11,6 +11,10 @@ Route::get('/wordpress',function() {
     return Inertia::render('wordpress');
 })->name('wordpress');
 
+Route::get('/laravel',function() {
+    return Inertia::render('laravel');
+})->name('laravel');
+
 // Route::middleware(['auth', 'verified'])->group(function () {
 //     Route::get('dashboard', function () {
 //         return Inertia::render('dashboard');

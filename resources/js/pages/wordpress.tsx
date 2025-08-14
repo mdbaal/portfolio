@@ -2,7 +2,7 @@ import { Head, Link, usePage } from '@inertiajs/react';
 import MainLayout from '@/layouts/main-layout';
 import Heading from '@/components/heading';
 
-export default function Welcome() {
+export default function Wordpress() {
     return (  
         <MainLayout>
                 <Head title="Wordpress">
