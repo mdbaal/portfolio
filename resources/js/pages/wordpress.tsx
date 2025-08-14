@@ -16,7 +16,7 @@ export default function Wordpress() {
                      </div>
                     <div className='flex flex-col gap-10'>
                         <div className='bg-dark-bg rounded-lg p-5'>
-                            <p className='text-white p-2 rounded'>
+                            <p className='text-white'>
                                 In de afgelopen 2 jaar heb ik gewerkt met WordPress en WooCommerce, waarbij ik ervaring heb opgedaan in het ontwikkelen en aanpassen van functionaliteiten. <br/> Ik heb onder andere meegewerkt aan een plugin die WooCommerce koppelt aan bol.com. Mijn interesse ligt vooral in het ontwikkelen van plugins, waarbij ik graag verdiepende kennis opdoe van WordPress en WooCommerce. <br/><br/>Daarnaast heb ik in eigen projecten de basis onderzocht van het maken van Classic Themes en Block Themes met behulp van AI.
                             </p>
                         </div>
