@@ -57,7 +57,7 @@ export default function MainLayout( {children, ...props}: AppLayoutProps) {
             </NavigationMenuList>
         </NavigationMenu>
     </header>
-    <main>
+    <main className='max-w-screen-xl mx-auto'>
         {children}
     </main>
     <footer className='bg-dark-bg text-light min-h-10 p-2'>

@@ -58,7 +58,7 @@ export default function Welcome() {
 
             </Head>
 
-            <div className="flex min-h-screen flex-col max-w-screen-xl mx-auto" >
+            <div className="flex min-h-screen flex-col" >
                 <div className='mx-auto text-center w-full animate-fade-in-left'>
                     <h1 className="text-7xl text-light mb-2">Welkom</h1>
                     <h2 className="text-5xl text-light">Portfolio Mirco Baalmans</h2>
