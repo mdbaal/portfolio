@@ -10,26 +10,28 @@ interface AppLayoutProps {
 
 const navItems:NavItem[] = [
     {
+        id: 0,
         title: "Home",
         href: "/",
         isActive: true,
     },
+    // {
+    //     title: "Wordpress",
+    //     href: "/wordpress",
+    // },
+    // {
+    //     title: "Laravel",
+    //     href: "/laravel",
+    // },
     {
-        title: "Wordpress",
-        href: "/wordpress",
-    },
-    {
-        title: "Laravel",
-        href: "/laravel",
-    },
-    {
+        id: 3,
         title: "Over mij",
-        href: "/over-mij",
+        href: "/about",
     },
-    {
-        title: "Contact",
-        href: "/contact",
-    }
+    // {
+    //     title: "Contact",
+    //     href: "/contact",
+    // }
 ]
 
 export default function MainLayout( {children, ...props}: AppLayoutProps) {
@@ -38,16 +40,16 @@ export default function MainLayout( {children, ...props}: AppLayoutProps) {
     <div className='bg-dark' { ...props }>
     <header>
         <NavigationMenu className='py-5 mb-5 shadow bg-dark-bg'>
-            <NavigationMenuList className='flex flex-row justify-between max-w-screen-xl mx-auto'>
+            <NavigationMenuList className='flex flex-row gap-5 max-w-screen-xl mx-auto'>
                 {navItems.map((item,index) => (
                     item.isActive ? (
-                        <NavigationMenuItem key={index} className='rounded border-b-2 border-primary even:border-accent shadow-xl p-2 text-center bg-primary-hover even:bg-accent-hover text-white '>
+                        <NavigationMenuItem key={item.id} className='rounded border-b-2 border-primary even:border-accent shadow-xl p-2 text-center bg-primary-hover even:bg-accent-hover text-white '>
                             <Link href={item.href}>
                                 {item.title}
                             </Link>
                         </NavigationMenuItem>
                     ):(
-                        <NavigationMenuItem key={index} className='rounded border-b-2 border-primary even:border-accent shadow-xl p-2 bg-white  text-center hover:bg-primary-hover hover:even:bg-accent-hover hover:text-white '>
+                        <NavigationMenuItem key={item.id} className='rounded border-b-2 border-primary even:border-accent shadow-xl p-2 bg-white  text-center hover:bg-primary-hover hover:even:bg-accent-hover hover:text-white '>
                             <Link href={item.href}>
                                 {item.title}
                             </Link>
@@ -61,33 +63,6 @@ export default function MainLayout( {children, ...props}: AppLayoutProps) {
         {children}
     </main>
     <footer className='bg-dark-bg text-light min-h-10 p-2'>
-        {/* <div className='max-w-screen-xl mx-auto py-5 flex flex-row gap-5 justify-between'>
-             <NavigationMenu className='py-5 mb-5 shadow bg-dark-bg'>
-                <NavigationMenuList className='flex flex-col gap-2 justify-between max-w-screen-xl mx-auto'>
-                    {navItems.map((item,index) => (
-                        item.isActive ? (
-                            <NavigationMenuItem key={index} className='underline decoration-primary decoration-2'>
-                                <Link href={item.href}>
-                                    {item.title}
-                                </Link>
-                            </NavigationMenuItem>
-                        ):(
-                            <NavigationMenuItem key={index} className='underline decoration-accent decoration-2 '>
-                                <Link href={item.href}>
-                                    {item.title}
-                                </Link>
-                            </NavigationMenuItem>
-                        )
-                    ))}
-                </NavigationMenuList>
-            </NavigationMenu>
-
-            <ul>
-                <li><strong>Contact</strong></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div> */}
         <span className='flex flex-row gap-2 text-muted'><Copyright /> Mirco Baalmans 2025</span>
     </footer>
     </div>

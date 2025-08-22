@@ -2,28 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\PageController;
 
-Route::get('/', function () {
-    return Inertia::render('welcome');
-})->name('home');
 
-Route::get('/wordpress',function() {
-    return Inertia::render('wordpress');
-})->name('wordpress');
+Route::get('/', [PageController::class,"Welcome"])->name('home');
 
-Route::get('/laravel',function() {
-    return Inertia::render('laravel');
-})->name('laravel');
+// Route::get('/wordpress',[PageController::class,'Wordpress'])->name('wordpress');
 
-Route::get('/over-mij',function() {
-    return Inertia::render('about');
-})->name('about');
+// Route::get('/laravel',[PageController::class,'Laravel'])->name('laravel');
 
-// Route::middleware(['auth', 'verified'])->group(function () {
-//     Route::get('dashboard', function () {
-//         return Inertia::render('dashboard');
-//     })->name('dashboard');
-// });
+Route::get('/about',[PageController::class,'About'])->name('about');
 
-// require __DIR__.'/settings.php';
-// require __DIR__.'/auth.php';
+// Route::get('/contact',[PageController::class,'Contact'])->name('contact');

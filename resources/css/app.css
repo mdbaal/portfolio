@@ -31,4 +31,11 @@
   }
 }
 
+.border-special{
+  border-top: #C53030 2px solid; 
+  border-left: #C53030 2px solid;
+  border-right: #307BC5 2px solid;
+  border-bottom: #307BC5 2px solid;
+}
+
 

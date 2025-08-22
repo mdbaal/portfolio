@@ -16,6 +16,7 @@ export interface NavGroup {
 }
 
 export interface NavItem {
+    id : int;
     title: string;
     href: string;
     icon?: LucideIcon | null;
@@ -41,3 +42,22 @@ export interface User {
     updated_at: string;
     [key: string]: unknown; // This allows for additional properties...
 }
+
+export interface SiteBlock {
+    id: int;
+    title: string;
+    description: string;
+};
+
+export interface Project {
+    id: int;
+    title: string;
+    description: string;
+    img: string;
+    link: string;
+};
+
+export interface WelcomeProps {
+    siteBlocks: SiteBlock[];
+    projects: Project[];
+};
