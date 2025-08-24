@@ -15,8 +15,8 @@ export default function Welcome({ siteBlocks, projects }: WelcomeProps) {
 
             <div className="flex min-h-screen flex-col" >
                 <div className='mx-auto text-center w-full animate-fade-in-left mb-5'>
-                    <h1 className="text-6xl text-light mb-2">Welkom op mijn portfolio</h1>
-                    <h2 className="text-5xl text-muted">Mirco Baalmans</h2>
+                    <h1 className="text-6xl text-light mb-2">Welkom</h1>
+                    <h2 className="text-5xl text-muted">Portfolio Mirco Baalmans</h2>
                     <div className='w-1/2 min-h-1 bg-gradient-to-r from-primary to-accent rounded mx-auto'></div>
                 </div>
 
